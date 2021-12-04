@@ -1,0 +1,13 @@
+1. Navbar
+    -3 links and a name
+
+2. Portfolio item grid
+    -images
+    -titles
+    -descriptions
+    -animations through javascript
+
+3. About page
+    -images
+    -split column layout
+    -content

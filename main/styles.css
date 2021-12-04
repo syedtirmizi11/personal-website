@@ -1,0 +1,147 @@
+body{
+    margin:0px;
+    font-family: 'Arvo', serif;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/*Nav*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding:30px;
+    text-transform: uppercase;
+    background-color: black;
+    border-bottom: 1px solid grey;
+}
+
+.right{
+    color: grey;
+}
+.left{
+    display: flex;
+}
+
+.navbar > .left > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+}
+
+.link {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.link a{
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.link:hover{
+    border-bottom: 1px solid white;
+}
+
+.link a:hover{
+    color: white;
+}
+
+
+/* Main */
+.all-inside-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.inside-items{
+    position: relative;
+     
+}
+
+.image{
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.img-text{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.logo img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.img-text .text{
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+}
+.img-text:hover .text{
+    font-weight: 600;
+    color: lightseagreen;
+    text-decoration: underline;
+}
+
+.img-trans{
+    transition: 1s;
+    filter: brightness(10%);
+    
+}
+
+.img-text .text1 a{
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+    text-decoration: none;
+
+}
+.img-text:hover .text1 a{
+    font-weight: 600;
+    color: lightseagreen;
+    text-decoration: underline;
+}
+/* about */
+body{
+    background: #0f2027; 
+  background: -webkit-linear-gradient(to right, #0f2027, #203a43, #2c5364); 
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364); 
+
+}
+
+.layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.about-img img{
+    width: 100%;
+    box-shadow: 10px 5px 5px black;
+}
+.about-img{
+    padding: 30px;
+}
+.about-text h1{
+    color: lightseagreen;
+}
+
+.about-text p{
+    color: white;
+}
